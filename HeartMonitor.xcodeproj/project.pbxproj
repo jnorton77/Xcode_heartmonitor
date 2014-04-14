@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		093D238E18FB4073004B22BF /* BPMItem.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 093D238C18FB4073004B22BF /* BPMItem.xcdatamodeld */; };
 		35AFF683185B691D00F1A64F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35AFF682185B691D00F1A64F /* Foundation.framework */; };
 		35AFF685185B691D00F1A64F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35AFF684185B691D00F1A64F /* CoreGraphics.framework */; };
 		35AFF687185B691D00F1A64F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35AFF686185B691D00F1A64F /* UIKit.framework */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		093D238D18FB4073004B22BF /* BPMItem.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BPMItem.xcdatamodel; sourceTree = "<group>"; };
 		35AFF67F185B691D00F1A64F /* HeartMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35AFF682185B691D00F1A64F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		35AFF684185B691D00F1A64F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -130,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				35AFF68A185B691D00F1A64F /* HeartMonitor-Info.plist */,
+				093D238C18FB4073004B22BF /* BPMItem.xcdatamodeld */,
 				35AFF68B185B691D00F1A64F /* InfoPlist.strings */,
 				35AFF68E185B691D00F1A64F /* main.m */,
 				35AFF690185B691D00F1A64F /* HeartMonitor-Prefix.pch */,
@@ -256,6 +259,7 @@
 			files = (
 				35AFF693185B691D00F1A64F /* HRMAppDelegate.m in Sources */,
 				35AFF68F185B691D00F1A64F /* main.m in Sources */,
+				093D238E18FB4073004B22BF /* BPMItem.xcdatamodeld in Sources */,
 				35AFF699185B691D00F1A64F /* HRMViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -477,6 +481,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		093D238C18FB4073004B22BF /* BPMItem.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				093D238D18FB4073004B22BF /* BPMItem.xcdatamodel */,
+			);
+			currentVersion = 093D238D18FB4073004B22BF /* BPMItem.xcdatamodel */;
+			path = BPMItem.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 35AFF677185B691D00F1A64F /* Project object */;
 }

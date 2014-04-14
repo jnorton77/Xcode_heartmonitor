@@ -146,7 +146,18 @@
     if ([characteristic.UUID isEqual:[CBUUID UUIDWithString:ZEPHYR_HRM_MEASUREMENT_CHARACTERISTIC_UUID]]) {
         // Get the Heart Rate Monitor BPM
         [self getHeartBPMData:characteristic error:error];
+        
+        // TODO: send post to our server
+
+        // or
+        
+        // TODO: record characteristic in array
+        // if (array.length >= 30) {
+        //   copy array to new array and send all that data...
+        // }
     }
+    
+    
     // Retrieve the characteristic value for manufacturer name received
     if ([characteristic.UUID isEqual:[CBUUID UUIDWithString:ZEPHYR_HRM_MANUFACTURER_NAME_CHARACTERISTIC_UUID]]) {
         [self getManufacturerName:characteristic];
@@ -173,6 +184,9 @@
     const uint8_t *reportData = [data bytes];
     uint16_t bpm = 0;
     
+    NSLog(@"Characteristic: %@", characteristic);
+    NSLog(@"reportData: %s", reportData);
+    
     if ((reportData[0] & 0x01) == 0) {
         // Retrieve the BPM value for the Heart Rate Monitor
         bpm = reportData[1];
@@ -187,6 +201,26 @@
         self.heartRateBPM.font = [UIFont fontWithName:@"Futura-CondensedMedium" size:28];
         [self doHeartBeat];
         self.pulseTimer = [NSTimer scheduledTimerWithTimeInterval:(60. / self.heartRate) target:self selector:@selector(doHeartBeat) userInfo:nil repeats:NO];
+        
+        NSTimeInterval createdAt = [[NSDate date ] timeIntervalSince1970];
+        NSString *post = [NSString stringWithFormat:@"&bpm=%hu&recorded_at=%f",bpm, createdAt];
+        NSData *postData = [post dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES];
+        NSString *postLength = [NSString stringWithFormat:@"%lu",(unsigned long)[postData length]];
+        
+        NSMutableURLRequest *request = [[NSMutableURLRequest alloc] init];
+        [request setURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://equanimity.herokuapp.com/users/99/heart_rates"]]];
+        [request setHTTPMethod:@"POST"];
+        [request setValue:postLength forHTTPHeaderField:@"Content-Length"];
+        [request setValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"Content-Type"];
+        [request setHTTPBody:postData];
+        
+//        NSURLConnection *conn = [[NSURLConnection alloc]initWithRequest:request delegate:self];
+//        if (conn) {
+//            NSLog(@”Connection Successful”)
+//        }
+//        else {
+//            NSLog(@”Connection could not be made”);
+//        }
     }
     return;
 }
