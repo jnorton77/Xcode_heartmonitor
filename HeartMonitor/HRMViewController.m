@@ -173,7 +173,6 @@
 
 
 
-
 #pragma mark - CBCharacteristic helpers
 
 // Instance method to get the heart rate BPM information
@@ -184,8 +183,8 @@
     const uint8_t *reportData = [data bytes];
     uint16_t bpm = 0;
     
-    NSLog(@"Characteristic: %@", characteristic);
-    NSLog(@"reportData: %s", reportData);
+//    NSLog(@"Characteristic: %@", characteristic);
+//    NSLog(@"reportData: %s", reportData);
     
     if ((reportData[0] & 0x01) == 0) {
         // Retrieve the BPM value for the Heart Rate Monitor
@@ -197,14 +196,16 @@
     // Display the heart rate value to the UI if no error occurred
     if( (characteristic.value)  || !error ) {
         self.heartRate = bpm;
+        NSLog(@"bpm: %hu", bpm);
         self.heartRateBPM.text = [NSString stringWithFormat:@"%i bpm", bpm];
         self.heartRateBPM.font = [UIFont fontWithName:@"Futura-CondensedMedium" size:28];
         [self doHeartBeat];
         self.pulseTimer = [NSTimer scheduledTimerWithTimeInterval:(60. / self.heartRate) target:self selector:@selector(doHeartBeat) userInfo:nil repeats:NO];
         
         NSTimeInterval createdAt = [[NSDate date ] timeIntervalSince1970];
-        NSString *post = [NSString stringWithFormat:@"&bpm=%hu&recorded_at=%f",bpm, createdAt];
+        NSString *post = [NSString stringWithFormat:@"bpm=%hu&recorded_at=%f",bpm, createdAt];
         NSData *postData = [post dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES];
+        NSLog(@"postData: %@", postData);
         NSString *postLength = [NSString stringWithFormat:@"%lu",(unsigned long)[postData length]];
         
         NSMutableURLRequest *request = [[NSMutableURLRequest alloc] init];
@@ -213,14 +214,15 @@
         [request setValue:postLength forHTTPHeaderField:@"Content-Length"];
         [request setValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"Content-Type"];
         [request setHTTPBody:postData];
+        NSLog(@"request: %@", request );
         
-//        NSURLConnection *conn = [[NSURLConnection alloc]initWithRequest:request delegate:self];
-//        if (conn) {
-//            NSLog(@”Connection Successful”)
-//        }
-//        else {
-//            NSLog(@”Connection could not be made”);
-//        }
+        NSURLConnection *connection = [[NSURLConnection alloc]initWithRequest:request delegate:self];
+        if (connection) {
+            NSLog(@"Connection Successful");
+        }
+        else {
+            NSLog(@"Connection could not be made");
+        }
     }
     return;
 }
