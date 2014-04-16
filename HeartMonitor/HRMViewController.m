@@ -19,27 +19,27 @@
     self.zephyrDeviceData = nil;
 	[self.view setBackgroundColor:[UIColor groupTableViewBackgroundColor]];
 	[self.heartImage setImage:[UIImage imageNamed:@"HeartImage"]];
-    
+
 	// Clear out textView
 	[self.deviceInfo setText:@""];
 	[self.deviceInfo setTextColor:[UIColor blueColor]];
 	[self.deviceInfo setBackgroundColor:[UIColor groupTableViewBackgroundColor]];
 	[self.deviceInfo setFont:[UIFont fontWithName:@"Futura-CondensedMedium" size:25]];
 	[self.deviceInfo setUserInteractionEnabled:NO];
-    
+
 	// Create your Heart Rate BPM Label
 	self.heartRateBPM = [[UILabel alloc] initWithFrame:CGRectMake(55, 30, 75, 50)];
 	[self.heartRateBPM setTextColor:[UIColor whiteColor]];
 	[self.heartRateBPM setText:[NSString stringWithFormat:@"%i", 0]];
 	[self.heartRateBPM setFont:[UIFont fontWithName:@"Futura-CondensedMedium" size:28]];
 	[self.heartImage addSubview:self.heartRateBPM];
-    
+
 	// Scan for all available CoreBluetooth LE devices
 	NSArray *services = @[[CBUUID UUIDWithString:ZEPHYR_HRM_HEART_RATE_SERVICE_UUID], [CBUUID UUIDWithString:ZEPHYR_HRM_DEVICE_INFO_SERVICE_UUID]];
 	CBCentralManager *centralManager = [[CBCentralManager alloc] initWithDelegate:self queue:nil];
 	[centralManager scanForPeripheralsWithServices:services options:nil];
 	self.centralManager = centralManager;
-    
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -146,18 +146,18 @@
     if ([characteristic.UUID isEqual:[CBUUID UUIDWithString:ZEPHYR_HRM_MEASUREMENT_CHARACTERISTIC_UUID]]) {
         // Get the Heart Rate Monitor BPM
         [self getHeartBPMData:characteristic error:error];
-        
+
         // TODO: send post to our server
 
         // or
-        
+
         // TODO: record characteristic in array
         // if (array.length >= 30) {
         //   copy array to new array and send all that data...
         // }
     }
-    
-    
+
+
     // Retrieve the characteristic value for manufacturer name received
     if ([characteristic.UUID isEqual:[CBUUID UUIDWithString:ZEPHYR_HRM_MANUFACTURER_NAME_CHARACTERISTIC_UUID]]) {
         [self getManufacturerName:characteristic];
@@ -166,7 +166,7 @@
     else if ([characteristic.UUID isEqual:[CBUUID UUIDWithString:ZEPHYR_HRM_BODY_LOCATION_CHARACTERISTIC_UUID]]) {
         [self getBodyLocation:characteristic];
     }
-    
+
     // Add your constructed device information to your UITextView
     self.deviceInfo.text = [NSString stringWithFormat:@"%@\n%@\n%@\n", self.connected, self.bodyData, self.manufacturer];
 }
@@ -182,16 +182,16 @@
     NSData *data = [characteristic value];
     const uint8_t *reportData = [data bytes];
     uint16_t bpm = 0;
-    
+
 //    NSLog(@"Characteristic: %@", characteristic);
 //    NSLog(@"reportData: %s", reportData);
-    
+
     if ((reportData[0] & 0x01) == 0) {
         // Retrieve the BPM value for the Heart Rate Monitor
         bpm = reportData[1];
     }
     else {
-        bpm = CFSwapInt16LittleToHost(*(uint16_t *)(&reportData[1]));  
+        bpm = CFSwapInt16LittleToHost(*(uint16_t *)(&reportData[1]));
     }
     // Display the heart rate value to the UI if no error occurred
     if( (characteristic.value)  || !error ) {
@@ -201,21 +201,21 @@
         self.heartRateBPM.font = [UIFont fontWithName:@"Futura-CondensedMedium" size:28];
         [self doHeartBeat];
         self.pulseTimer = [NSTimer scheduledTimerWithTimeInterval:(60. / self.heartRate) target:self selector:@selector(doHeartBeat) userInfo:nil repeats:NO];
-        
-        NSTimeInterval createdAt = [[NSDate date ] timeIntervalSince1970];
-        NSString *post = [NSString stringWithFormat:@"bpm=%hu&recorded_at=%f",bpm, createdAt];
+
+        NSString *email = (@"ian@databat.es");
+        NSString *post = [NSString stringWithFormat:@"bpm=%hu&email=%@",bpm, email];
         NSData *postData = [post dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES];
         NSLog(@"postData: %@", postData);
         NSString *postLength = [NSString stringWithFormat:@"%lu",(unsigned long)[postData length]];
-        
+
         NSMutableURLRequest *request = [[NSMutableURLRequest alloc] init];
-        [request setURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://equanimity.herokuapp.com/users/99/heart_rates"]]];
+        [request setURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://equanimity.herokuapp.com/users/:id/heart_rates"]]];
         [request setHTTPMethod:@"POST"];
         [request setValue:postLength forHTTPHeaderField:@"Content-Length"];
         [request setValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"Content-Type"];
         [request setHTTPBody:postData];
         NSLog(@"request: %@", request );
-        
+
         NSURLConnection *connection = [[NSURLConnection alloc]initWithRequest:request delegate:self];
         if (connection) {
             NSLog(@"Connection Successful");
@@ -254,13 +254,13 @@
     CABasicAnimation *pulseAnimation = [CABasicAnimation animationWithKeyPath:@"transform.scale"];
     pulseAnimation.toValue = [NSNumber numberWithFloat:1.1];
     pulseAnimation.fromValue = [NSNumber numberWithFloat:1.0];
-    
+
     pulseAnimation.duration = 60. / self.heartRate / 2.;
     pulseAnimation.repeatCount = 1;
     pulseAnimation.autoreverses = YES;
     pulseAnimation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseIn];
     [layer addAnimation:pulseAnimation forKey:@"scale"];
-    
+
     self.pulseTimer = [NSTimer scheduledTimerWithTimeInterval:(60. / self.heartRate) target:self selector:@selector(doHeartBeat) userInfo:nil repeats:NO];
 }
 @end
