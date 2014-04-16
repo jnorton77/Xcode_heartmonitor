@@ -5,6 +5,7 @@
 //
 
 #import "HRMViewController.h"
+#import "AFHTTPSessionManager.h"
 
 @interface HRMViewController ()
 
@@ -202,14 +203,15 @@
         [self doHeartBeat];
         self.pulseTimer = [NSTimer scheduledTimerWithTimeInterval:(60. / self.heartRate) target:self selector:@selector(doHeartBeat) userInfo:nil repeats:NO];
         
-        NSTimeInterval createdAt = [[NSDate date ] timeIntervalSince1970];
-        NSString *post = [NSString stringWithFormat:@"bpm=%hu&recorded_at=%f",bpm, createdAt];
+//        NSTimeInterval createdAt = [[NSDate date ] timeIntervalSince1970];  // removed from post pointer 
+        NSString *email = @"john.j.norton@gmail.com";
+        NSString *post = [NSString stringWithFormat:@"bpm=%hu&email=%@",bpm, email];
         NSData *postData = [post dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES];
         NSLog(@"postData: %@", postData);
         NSString *postLength = [NSString stringWithFormat:@"%lu",(unsigned long)[postData length]];
         
         NSMutableURLRequest *request = [[NSMutableURLRequest alloc] init];
-        [request setURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://equanimity.herokuapp.com/users/99/heart_rates"]]];
+        [request setURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://equanimity.herokuapp.com/users/:id/heart_rates"]]];
         [request setHTTPMethod:@"POST"];
         [request setValue:postLength forHTTPHeaderField:@"Content-Length"];
         [request setValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"Content-Type"];

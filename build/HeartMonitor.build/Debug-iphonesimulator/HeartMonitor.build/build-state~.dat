@@ -1,0 +1,398 @@
+THeartMonitor
+v6
+r1
+cCheck dependencies
+cDataModelVersionCompile /Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app/BPMItem.momd /Users/skippy/Desktop/equanimity_hrm/HeartMonitor/BPMItem.xcdatamodeld
+cProcessPCH /var/folders/l1/lg0_2ylx3mq0qvr4bl406nlc0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/HeartMonitor-Prefix-fuqdwighnrsdwegtrhiqlsueazfx/HeartMonitor-Prefix.pch.pch HeartMonitor/HeartMonitor-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/Objects-normal/x86_64/HRMAppDelegate.o /Users/skippy/Desktop/equanimity_hrm/HeartMonitor/HRMAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/Objects-normal/x86_64/main.o /Users/skippy/Desktop/equanimity_hrm/HeartMonitor/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/Objects-normal/x86_64/HRMViewController.o /Users/skippy/Desktop/equanimity_hrm/HeartMonitor/HRMViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app/HeartMonitor normal x86_64
+cCopyStringsFile /Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app/en.lproj/InfoPlist.strings HeartMonitor/en.lproj/InfoPlist.strings
+cCompileStoryboard /Users/skippy/Desktop/equanimity_hrm/HeartMonitor/Base.lproj/Main.storyboard
+cCompileAssetCatalog /Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app /Users/skippy/Desktop/equanimity_hrm/HeartMonitor/Images.xcassets /Users/skippy/Desktop/equanimity_hrm/HeartMonitor/Media.xcassets
+cProcessInfoPlistFile /Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app/Info.plist /Users/skippy/Desktop/equanimity_hrm/HeartMonitor/HeartMonitor-Info.plist
+cGenerateDSYMFile /Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app.dSYM /Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app/HeartMonitor
+cTouch /Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c000000005348403D0000000000000198
+t1397243965
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c00000000531F483D00000000000003B4
+t1394559037
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531F4847000000000000019E
+t1394559047
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000053483FD70000000000446820
+t1397243863
+s4483104
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000531F484C000000000088D8C0
+t1394559052
+s8968384
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000531F48530000000001F1DE10
+t1394559059
+s32628240
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c00000000531F487B0000000000000ADC
+t1394559099
+s2780
+
+N/Users/skippy/Desktop/equanimity_hrm/HeartMonitor/BPMItem.xcdatamodeld
+c00000000534C6AB30000000000000066
+t1397516979
+s102
+
+N/Users/skippy/Desktop/equanimity_hrm/HeartMonitor/Base.lproj/Main.storyboard
+c00000000534C6AB30000000000001122
+t1397516979
+s4386
+
+N/Users/skippy/Desktop/equanimity_hrm/HeartMonitor/HRMAppDelegate.m
+c00000000534C6AB30000000000000785
+t1397516979
+s1925
+
+N/Users/skippy/Desktop/equanimity_hrm/HeartMonitor/HRMViewController.m
+c00000000534D366D0000000000002C59
+t1397569133
+s11353
+
+N/Users/skippy/Desktop/equanimity_hrm/HeartMonitor/HeartMonitor-Info.plist
+c00000000534D3597000000000000057F
+t1397568919
+s1407
+
+N/Users/skippy/Desktop/equanimity_hrm/HeartMonitor/HeartMonitor-Prefix.pch
+c00000000534C6AB30000000000000158
+t1397516979
+s344
+
+N/Users/skippy/Desktop/equanimity_hrm/HeartMonitor/Images.xcassets
+c00000000534D4E9700000000000000CC
+t1397575319
+s204
+
+N/Users/skippy/Desktop/equanimity_hrm/HeartMonitor/Media.xcassets
+c00000000534D4E420000000000000088
+t1397575234
+s136
+
+N/Users/skippy/Desktop/equanimity_hrm/HeartMonitor/en.lproj/InfoPlist.strings
+c00000000534C6AB3000000000000002D
+t1397516979
+s45
+
+N/Users/skippy/Desktop/equanimity_hrm/HeartMonitor/main.m
+c00000000534C6AB300000000000000FC
+t1397516979
+s252
+
+N/Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app
+t1397575446
+s374
+
+N/Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app.dSYM
+t2
+s0
+
+N/Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app/BPMItem.momd
+t1397575424
+s136
+
+N/Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app/Base.lproj/Main.storyboardc
+t1397575446
+s170
+
+N/Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app/HeartMonitor
+t1397575426
+s55660
+
+N/Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app/Info.plist
+t1397575446
+s1247
+
+N/Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app/PkgInfo
+t1397575446
+s8
+
+N/Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app/en.lproj/InfoPlist.strings
+t1397575426
+s42
+
+N/Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/Objects-normal/x86_64/HRMAppDelegate.o
+t1397575424
+s68724
+
+N/Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/Objects-normal/x86_64/HRMViewController.o
+t1397575425
+s111028
+
+N/Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/Objects-normal/x86_64/HeartMonitor.LinkFileList
+c00000000534D4EFB00000000000001A3
+t1397575419
+s419
+
+N/Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/Objects-normal/x86_64/main.o
+t1397575424
+s3768
+
+N/Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/assetcatalog_dependencies.txt
+t1397575437
+s459
+
+N/Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/assetcatalog_generated_info.plist
+t1397575437
+s709
+
+N/var/folders/l1/lg0_2ylx3mq0qvr4bl406nlc0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/HeartMonitor-Prefix-fuqdwighnrsdwegtrhiqlsueazfx/HeartMonitor-Prefix.pch.pch
+t1397575424
+s116508
+
+CBuild AST from /Users/skippy/Desktop/equanimity_hrm/HeartMonitor/HRMAppDelegate.m
+r0
+
+CBuild AST from /Users/skippy/Desktop/equanimity_hrm/HeartMonitor/HRMViewController.m
+r0
+
+CBuild AST from /Users/skippy/Desktop/equanimity_hrm/HeartMonitor/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesb77ce07b86fdb841^91ee077c86fdb841^---0#1#1#--18"Check dependencies36"FB23A7E8-2885-4BA9-AD94-A678830BE4DD-
+
+CCompileAssetCatalog /Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app /Users/skippy/Desktop/equanimity_hrm/HeartMonitor/Images.xcassets /Users/skippy/Desktop/equanimity_hrm/HeartMonitor/Media.xcassets
+s419268226.104730
+e419268237.848838
+r1
+xCompileAssetCatalog
+x/Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app
+x/Users/skippy/Desktop/equanimity_hrm/HeartMonitor/Images.xcassets
+x/Users/skippy/Desktop/equanimity_hrm/HeartMonitor/Media.xcassets
+o2014-04-15 10:23:55.087 IBCocoaTouchImageCatalogTool[11843:303] CFPreferences: user home directory at file:///Users/skippy/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+o/* com.apple.actool.document.warnings */
+o/Users/skippy/Desktop/equanimity_hrm/HeartMonitor/Images.xcassets:./AppIcon.appiconset/[iphone][29x29][2x]: warning: AppIcon.appiconset/HeartImage@2x.png is 120x120 but should be 58x58.
+o/* com.apple.actool.compilation-results */
+o/Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app/AppIcon60x60@2x.png
+o/Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app/LaunchImage-700-568h@2x.png
+o/Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app/Assets.car
+o/Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"CompileAssetCatalog build/Debug-iphonesimulator/HeartMonitor.app HeartMonitor/Images.xcassets HeartMonitor/Media.xcassets121"CompileAssetCatalog build/Debug-iphonesimulator/HeartMonitor.app HeartMonitor/Images.xcassets HeartMonitor/Media.xcassetse6eb1a8286fdb841^7957d98d86fdb841^-938"2014-04-15 10:23:55.087 IBCocoaTouchImageCatalogTool[11843:303] CFPreferences: user home directory at file:///Users/skippy/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile./* com.apple.actool.document.warnings *//Users/skippy/Desktop/equanimity_hrm/HeartMonitor/Images.xcassets:./AppIcon.appiconset/[iphone][29x29][2x]: warning: AppIcon.appiconset/HeartImage@2x.png is 120x120 but should be 58x58./* com.apple.actool.compilation-results *//Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app/AppIcon60x60@2x.png/Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app/LaunchImage-700-568h@2x.png/Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app/Assets.car/Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/assetcatalog_generated_info.plist1(21%IDEActivityLogMessage2@68"AppIcon.appiconset/HeartImage@2x.png is 120x120 but should be 58x58.-419268237#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@73"file:///Users/skippy/Desktop/equanimity_hrm/HeartMonitor/Images.xcassets/0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Asset Catalog Compiler Warning--0#0#1#-19%DVTDocumentLocation4@72"file:///Users/skippy/Desktop/equanimity_hrm/HeartMonitor/Media.xcassets/0000000000000000^1215"CompileAssetCatalog build/Debug-iphonesimulator/HeartMonitor.app HeartMonitor/Images.xcassets HeartMonitor/Media.xcassets    cd /Users/skippy/Desktop/equanimity_hrm    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphonesimulator --minimum-deployment-target 7.0 --target-device iphone --compress-pngs --compile /Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app /Users/skippy/Desktop/equanimity_hrm/HeartMonitor/Images.xcassets /Users/skippy/Desktop/equanimity_hrm/HeartMonitor/Media.xcassets36"13083EF3-07F1-48C9-A288-2FA53580E170-
+b3DB8544F-5404-4E4D-B96D-F7F973584856
+
+CCompileC build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/Objects-normal/x86_64/HRMAppDelegate.o /Users/skippy/Desktop/equanimity_hrm/HeartMonitor/HRMAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419268224.588690
+e419268224.875714
+r1
+xCompileC
+xbuild/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/Objects-normal/x86_64/HRMAppDelegate.o
+x/Users/skippy/Desktop/equanimity_hrm/HeartMonitor/HRMAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/skippy/Desktop/equanimity_hrm/HeartMonitor/HRMAppDelegate.m
+d/Users/skippy/Desktop/equanimity_hrm/HeartMonitor/HRMAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/skippy/Desktop/equanimity_hrm/HeartMonitor/HRMAppDelegate.m213"CompileC build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/Objects-normal/x86_64/HRMAppDelegate.o HeartMonitor/HRMAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler3dd4968086fdb841^942fe08086fdb841^---0#0#1#-19%DVTDocumentLocation2@73"file:///Users/skippy/Desktop/equanimity_hrm/HeartMonitor/HRMAppDelegate.m0000000000000000^3668"CompileC build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/Objects-normal/x86_64/HRMAppDelegate.o HeartMonitor/HRMAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/skippy/Desktop/equanimity_hrm    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/skippy/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/HeartMonitor-generated-files.hmap -I/Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/HeartMonitor-own-target-headers.hmap -I/Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/HeartMonitor-all-target-headers.hmap -iquote /Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/HeartMonitor-project-headers.hmap -I/Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/DerivedSources/x86_64 -I/Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/DerivedSources -F/Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator -include /var/folders/l1/lg0_2ylx3mq0qvr4bl406nlc0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/HeartMonitor-Prefix-fuqdwighnrsdwegtrhiqlsueazfx/HeartMonitor-Prefix.pch -MMD -MT dependencies -MF /Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/Objects-normal/x86_64/HRMAppDelegate.d --serialize-diagnostics /Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/Objects-normal/x86_64/HRMAppDelegate.dia -c /Users/skippy/Desktop/equanimity_hrm/HeartMonitor/HRMAppDelegate.m -o /Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/Objects-normal/x86_64/HRMAppDelegate.o36"0B0514C5-55A3-4C2B-ABCD-5FE55F421190-
+b3DB8544F-5404-4E4D-B96D-F7F973584856
+
+CCompileC build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/Objects-normal/x86_64/HRMViewController.o /Users/skippy/Desktop/equanimity_hrm/HeartMonitor/HRMViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419268224.589181
+e419268225.014261
+r1
+xCompileC
+xbuild/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/Objects-normal/x86_64/HRMViewController.o
+x/Users/skippy/Desktop/equanimity_hrm/HeartMonitor/HRMViewController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/skippy/Desktop/equanimity_hrm/HeartMonitor/HRMViewController.m
+d/Users/skippy/Desktop/equanimity_hrm/HeartMonitor/HRMViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/skippy/Desktop/equanimity_hrm/HeartMonitor/HRMViewController.m219"CompileC build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/Objects-normal/x86_64/HRMViewController.o HeartMonitor/HRMViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler38f4968086fdb841^97ab038186fdb841^---0#0#1#-19%DVTDocumentLocation2@76"file:///Users/skippy/Desktop/equanimity_hrm/HeartMonitor/HRMViewController.m0000000000000000^3686"CompileC build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/Objects-normal/x86_64/HRMViewController.o HeartMonitor/HRMViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/skippy/Desktop/equanimity_hrm    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/skippy/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/HeartMonitor-generated-files.hmap -I/Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/HeartMonitor-own-target-headers.hmap -I/Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/HeartMonitor-all-target-headers.hmap -iquote /Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/HeartMonitor-project-headers.hmap -I/Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/DerivedSources/x86_64 -I/Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/DerivedSources -F/Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator -include /var/folders/l1/lg0_2ylx3mq0qvr4bl406nlc0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/HeartMonitor-Prefix-fuqdwighnrsdwegtrhiqlsueazfx/HeartMonitor-Prefix.pch -MMD -MT dependencies -MF /Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/Objects-normal/x86_64/HRMViewController.d --serialize-diagnostics /Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/Objects-normal/x86_64/HRMViewController.dia -c /Users/skippy/Desktop/equanimity_hrm/HeartMonitor/HRMViewController.m -o /Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/Objects-normal/x86_64/HRMViewController.o36"BA5693C9-AECA-47FE-BB17-559956716EA1-
+b3DB8544F-5404-4E4D-B96D-F7F973584856
+
+CCompileC build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/Objects-normal/x86_64/main.o /Users/skippy/Desktop/equanimity_hrm/HeartMonitor/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419268224.588906
+e419268224.862241
+r1
+xCompileC
+xbuild/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/Objects-normal/x86_64/main.o
+x/Users/skippy/Desktop/equanimity_hrm/HeartMonitor/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/skippy/Desktop/equanimity_hrm/HeartMonitor/main.m
+d/Users/skippy/Desktop/equanimity_hrm/HeartMonitor/HRMAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/skippy/Desktop/equanimity_hrm/HeartMonitor/main.m193"CompileC build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/Objects-normal/x86_64/main.o HeartMonitor/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler05e1968086fdb841^6a15dd8086fdb841^---0#0#1#-19%DVTDocumentLocation2@63"file:///Users/skippy/Desktop/equanimity_hrm/HeartMonitor/main.m0000000000000000^3608"CompileC build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/Objects-normal/x86_64/main.o HeartMonitor/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/skippy/Desktop/equanimity_hrm    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/skippy/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/HeartMonitor-generated-files.hmap -I/Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/HeartMonitor-own-target-headers.hmap -I/Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/HeartMonitor-all-target-headers.hmap -iquote /Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/HeartMonitor-project-headers.hmap -I/Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/DerivedSources/x86_64 -I/Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/DerivedSources -F/Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator -include /var/folders/l1/lg0_2ylx3mq0qvr4bl406nlc0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/HeartMonitor-Prefix-fuqdwighnrsdwegtrhiqlsueazfx/HeartMonitor-Prefix.pch -MMD -MT dependencies -MF /Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/Objects-normal/x86_64/main.dia -c /Users/skippy/Desktop/equanimity_hrm/HeartMonitor/main.m -o /Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/Objects-normal/x86_64/main.o36"CE242694-D904-4099-9804-DE592C0990F5-
+b3DB8544F-5404-4E4D-B96D-F7F973584856
+
+CCompileStoryboard /Users/skippy/Desktop/equanimity_hrm/HeartMonitor/Base.lproj/Main.storyboard
+s419268226.103987
+e419268246.414838
+r1
+xCompileStoryboard
+x/Users/skippy/Desktop/equanimity_hrm/HeartMonitor/Base.lproj/Main.storyboard
+o2014-04-15 10:23:59.765 Interface Builder Cocoa Touch Tool[11842:303] CFPreferences: user home directory at file:///Users/skippy/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+o2014-04-15 10:24:05.873 Interface Builder Cocoa Touch Tool[11849:303] CFPreferences: user home directory at file:///Users/skippy/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"CompileStoryboard HeartMonitor/Base.lproj/Main.storyboard57"CompileStoryboard HeartMonitor/Base.lproj/Main.storyboarde5b91a8286fdb841^6a336a9686fdb841^-462"2014-04-15 10:23:59.765 Interface Builder Cocoa Touch Tool[11842:303] CFPreferences: user home directory at file:///Users/skippy/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.2014-04-15 10:24:05.873 Interface Builder Cocoa Touch Tool[11849:303] CFPreferences: user home directory at file:///Users/skippy/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@83"file:///Users/skippy/Desktop/equanimity_hrm/HeartMonitor/Base.lproj/Main.storyboard0000000000000000^839"CompileStoryboard HeartMonitor/Base.lproj/Main.storyboard    cd /Users/skippy/Desktop/equanimity_hrm    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app/Base.lproj/Main.storyboardc /Users/skippy/Desktop/equanimity_hrm/HeartMonitor/Base.lproj/Main.storyboard36"F949286F-4981-485C-B9ED-5ED0BE05BD62-
+b3DB8544F-5404-4E4D-B96D-F7F973584856
+
+CCopyStringsFile /Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app/en.lproj/InfoPlist.strings HeartMonitor/en.lproj/InfoPlist.strings
+s419268226.103845
+e419268226.159306
+r1
+xCopyStringsFile
+x/Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app/en.lproj/InfoPlist.strings
+xHeartMonitor/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy HeartMonitor/en.lproj/InfoPlist.strings127"CopyStringsFile build/Debug-iphonesimulator/HeartMonitor.app/en.lproj/InfoPlist.strings HeartMonitor/en.lproj/InfoPlist.strings68b31a8286fdb841^3eca288286fdb841^---0#0#1#-19%DVTDocumentLocation2@83"file:///Users/skippy/Desktop/equanimity_hrm/HeartMonitor/en.lproj/InfoPlist.strings0000000000000000^591"CopyStringsFile build/Debug-iphonesimulator/HeartMonitor.app/en.lproj/InfoPlist.strings HeartMonitor/en.lproj/InfoPlist.strings    cd /Users/skippy/Desktop/equanimity_hrm    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app/en.lproj -- HeartMonitor/en.lproj/InfoPlist.strings36"1DB26B2E-AE7B-42D1-97C1-0EC41FB4BD3F-
+b3DB8544F-5404-4E4D-B96D-F7F973584856
+
+CDataModelVersionCompile /Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app/BPMItem.momd /Users/skippy/Desktop/equanimity_hrm/HeartMonitor/BPMItem.xcdatamodeld
+s419268220.034696
+e419268224.485724
+r1
+xDataModelVersionCompile
+x/Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app/BPMItem.momd
+x/Users/skippy/Desktop/equanimity_hrm/HeartMonitor/BPMItem.xcdatamodeld
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"DataModelVersionCompile build/Debug-iphonesimulator/HeartMonitor.app/BPMItem.momd HeartMonitor/BPMItem.xcdatamodeld115"DataModelVersionCompile build/Debug-iphonesimulator/HeartMonitor.app/BPMItem.momd HeartMonitor/BPMItem.xcdatamodeld4207097c86fdb841^a7597c8086fdb841^---0#0#1#-19%DVTDocumentLocation2@78"file:///Users/skippy/Desktop/equanimity_hrm/HeartMonitor/BPMItem.xcdatamodeld/0000000000000000^877"DataModelVersionCompile build/Debug-iphonesimulator/HeartMonitor.app/BPMItem.momd HeartMonitor/BPMItem.xcdatamodeld    cd /Users/skippy/Desktop/equanimity_hrm    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/momc -XD_MOMC_SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -XD_MOMC_IOS_TARGET_VERSION=7.0 -MOMC_PLATFORMS iphonesimulator -MOMC_PLATFORMS iphoneos -XD_MOMC_TARGET_VERSION=10.6 /Users/skippy/Desktop/equanimity_hrm/HeartMonitor/BPMItem.xcdatamodeld /Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app/BPMItem.momd36"84158050-43CA-42D4-ABB9-29B3A4D53491-
+b3DB8544F-5404-4E4D-B96D-F7F973584856
+
+CGenerateDSYMFile /Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app.dSYM /Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app/HeartMonitor
+s419268246.419472
+e419268246.481597
+r1
+xGenerateDSYMFile
+x/Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app.dSYM
+x/Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app/HeartMonitor
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Generate /Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app.dSYM124"GenerateDSYMFile build/Debug-iphonesimulator/HeartMonitor.app.dSYM build/Debug-iphonesimulator/HeartMonitor.app/HeartMonitor00716b9686fdb841^c74b7b9686fdb841^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app.dSYM0034ac09dfffdf42^649"GenerateDSYMFile build/Debug-iphonesimulator/HeartMonitor.app.dSYM build/Debug-iphonesimulator/HeartMonitor.app/HeartMonitor    cd /Users/skippy/Desktop/equanimity_hrm    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app/HeartMonitor -o /Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app.dSYM36"794FE68A-81EF-4AA5-AF1D-2714D3AE6C6B-
+b3DB8544F-5404-4E4D-B96D-F7F973584856
+
+CLd /Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app/HeartMonitor normal x86_64
+s419268225.015161
+e419268226.102447
+r1
+xLd
+x/Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app/HeartMonitor
+xnormal
+xx86_64
+d/Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/Objects-normal/x86_64/HeartMonitor.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+d/Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/Objects-normal/x86_64/HRMAppDelegate.o
+d/Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/Objects-normal/x86_64/main.o
+d/Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/Objects-normal/x86_64/HRMViewController.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreBluetooth.framework/CoreBluetooth
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libdyld.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libsystem_stats.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Link /Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app/HeartMonitor74"Ld build/Debug-iphonesimulator/HeartMonitor.app/HeartMonitor normal x86_64dcf4038186fdb841^21401a8286fdb841^---0#0#1#--1371"Ld build/Debug-iphonesimulator/HeartMonitor.app/HeartMonitor normal x86_64    cd /Users/skippy/Desktop/equanimity_hrm    export IPHONEOS_DEPLOYMENT_TARGET=7.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator -F/Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator -filelist /Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/Objects-normal/x86_64/HeartMonitor.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.0 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/Objects-normal/x86_64/HeartMonitor_dependency_info.dat -o /Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app/HeartMonitor36"30E31303-F963-4F13-A8CA-9221DD9F475C-
+b3DB8544F-5404-4E4D-B96D-F7F973584856
+
+CProcessInfoPlistFile /Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app/Info.plist /Users/skippy/Desktop/equanimity_hrm/HeartMonitor/HeartMonitor-Info.plist
+s419268246.415895
+e419268246.419008
+r1
+xProcessInfoPlistFile
+x/Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app/Info.plist
+x/Users/skippy/Desktop/equanimity_hrm/HeartMonitor/HeartMonitor-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Process /Users/skippy/Desktop/equanimity_hrm/HeartMonitor/HeartMonitor-Info.plist113"ProcessInfoPlistFile build/Debug-iphonesimulator/HeartMonitor.app/Info.plist HeartMonitor/HeartMonitor-Info.plistf48b6a9686fdb841^ae456b9686fdb841^---0#0#1#-19%DVTDocumentLocation2@80"file:///Users/skippy/Desktop/equanimity_hrm/HeartMonitor/HeartMonitor-Info.plist0000000000000000^876"ProcessInfoPlistFile build/Debug-iphonesimulator/HeartMonitor.app/Info.plist HeartMonitor/HeartMonitor-Info.plist    cd /Users/skippy/Desktop/equanimity_hrm    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/skippy/Desktop/equanimity_hrm/HeartMonitor/HeartMonitor-Info.plist -genpkginfo /Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/assetcatalog_generated_info.plist -o /Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app/Info.plist36"C30F05CB-70B7-4E05-9B52-BC88306617D3-
+b3DB8544F-5404-4E4D-B96D-F7F973584856
+
+CProcessPCH /Users/skippy/Library/Developer/Xcode/DerivedData/HeartMonitor-bzatwjvkkqkwtxccdeapicdheqjd/Index/PrecompiledHeaders/HeartMonitor-Prefix-fuyfhtobvwwshvdlcmgoqtplkbvr_ast/HeartMonitor-Prefix.pch.pch HeartMonitor/HeartMonitor-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/l1/lg0_2ylx3mq0qvr4bl406nlc0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/HeartMonitor-Prefix-fuqdwighnrsdwegtrhiqlsueazfx/HeartMonitor-Prefix.pch.pch HeartMonitor/HeartMonitor-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419268220.035759
+e419268224.587840
+r1
+xProcessPCH
+x/var/folders/l1/lg0_2ylx3mq0qvr4bl406nlc0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/HeartMonitor-Prefix-fuqdwighnrsdwegtrhiqlsueazfx/HeartMonitor-Prefix.pch.pch
+xHeartMonitor/HeartMonitor-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/skippy/Desktop/equanimity_hrm/HeartMonitor/HeartMonitor-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Precompile HeartMonitor/HeartMonitor-Prefix.pch312"ProcessPCH /var/folders/l1/lg0_2ylx3mq0qvr4bl406nlc0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/HeartMonitor-Prefix-fuqdwighnrsdwegtrhiqlsueazfx/HeartMonitor-Prefix.pch.pch HeartMonitor/HeartMonitor-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler5341097c86fdb841^2c7f968086fdb841^---0#0#1#-19%DVTDocumentLocation2@80"file:///Users/skippy/Desktop/equanimity_hrm/HeartMonitor/HeartMonitor-Prefix.pch0000000000000000^3736"ProcessPCH /var/folders/l1/lg0_2ylx3mq0qvr4bl406nlc0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/HeartMonitor-Prefix-fuqdwighnrsdwegtrhiqlsueazfx/HeartMonitor-Prefix.pch.pch HeartMonitor/HeartMonitor-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/skippy/Desktop/equanimity_hrm    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/skippy/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/HeartMonitor-generated-files.hmap -I/Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/HeartMonitor-own-target-headers.hmap -I/Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/HeartMonitor-all-target-headers.hmap -iquote /Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/HeartMonitor-project-headers.hmap -I/Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/DerivedSources/x86_64 -I/Users/skippy/Desktop/equanimity_hrm/build/HeartMonitor.build/Debug-iphonesimulator/HeartMonitor.build/DerivedSources -F/Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/l1/lg0_2ylx3mq0qvr4bl406nlc0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/HeartMonitor-Prefix-fuqdwighnrsdwegtrhiqlsueazfx/HeartMonitor-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/l1/lg0_2ylx3mq0qvr4bl406nlc0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/HeartMonitor-Prefix-fuqdwighnrsdwegtrhiqlsueazfx/HeartMonitor-Prefix.pch.d -c /Users/skippy/Desktop/equanimity_hrm/HeartMonitor/HeartMonitor-Prefix.pch -o /var/folders/l1/lg0_2ylx3mq0qvr4bl406nlc0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/HeartMonitor-Prefix-fuqdwighnrsdwegtrhiqlsueazfx/HeartMonitor-Prefix.pch.pch36"A99D12DC-ACFA-446B-BBC4-A6F1461C2F68-
+b3DB8544F-5404-4E4D-B96D-F7F973584856
+
+CTouch /Users/skippy/Desktop/equanimity_hrm/build/Debug-iphonesimulator/HeartMonitor.app
+r0
+
